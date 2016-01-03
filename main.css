@@ -1,0 +1,64 @@
+/*Заголовки*/
+body {
+margin-left: 30px;
+margin-right: 30px;
+}
+h1,h2,h3,h4,h5,h6,h7,h8 {
+font-weight: bold;
+}
+/*Відстань  елемента  від  верхнього краю*/
+.alert{
+margin-top: 20px;
+}
+#edd {
+margin-top: 30px;
+}
+.table {
+margin-top: 10px;
+margin-bottom: 250px;
+}
+/*край футера*/
+#footer {
+border-top: 3px solid #cccccc;
+/*внутрішня  відстань*/
+#padding-top; 10px;
+}
+/*селектор групи*/
+#groupselector{
+margin-top: 30px;
+}
+#group-selector select {
+margin:0;
+width: 85%;
+background-color: #aaaall;
+border: 1px solid #tttddd;
+height: 30px;
+line-height: 20px;
+color: #ffkkrr;
+}
+ul.pagination {
+margin-top: 20px;
+}
+#group-selector {
+margin-top: 20px;
+}
+#f1 {
+margin-top: 50px;
+}
+#f2 {
+margin-top: 50px;
+}
+#f3 {
+margin-top: 50px;
+}
+#t1 {
+height: 200px;
+margin-top: 40px;
+}
+#edd1 {
+margin-top: 20px;
+}
+#i1 {
+margin-left: 200px;
+margin-bottom: 60px;
+}

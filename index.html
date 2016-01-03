@@ -1,0 +1,163 @@
+<!doctype html>
+ <html lang="uk">
+  <head>
+   <meta charset="UTF-8"/>
+    <title>Сервіс обліку студентів</title>
+     <meta name="description" value="Система  обліку студентів навчального закладу"/>
+       <!css bootstrap>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./main.css">
+ <head> 
+   <body>
+     <! старт  мого  контейнера>
+     <div class="container">
+       <! start header>
+        <div class="row" id="header">
+      <!logo>
+        <div class="col-xs-8">
+           <h1>Сервіс  обліку  студентів</h>
+        </div>
+        <!-- Groups Selector -->
+<div class="col-xs-4" id="group-selector">
+<strong>Група:</strong>
+<select>
+<option value="">Ігор</option>
+<option value="">Сергій</option>
+</select>
+</div>
+</div>
+<!-- End Header -->
+        </div>
+         <!end header>
+         <!start subheader>
+         <div class="row" id="sub-header">
+         <div class="col-xs-12">
+            <ul class="nav nav-tabs">
+             <li role="presentation" class="active"><a href="#">Студенти</a></li>
+             <li role="presentation"><a href="#">Відвідування</a></li>
+             <li role="presentation"><a href="#">Групи</a></li>
+            </ul>
+         </div>
+         </div>
+         <!end subheader>
+         <!start main page>
+         <div class="row" id="content-columns">
+          <div class="col-xs-12" id="content-column">
+          <div class="alert alert-warning" role="alert">Зміни скасовано</div>
+             <h2>База студентів</h2>
+             <!add student button>
+             <a class="btn btn-primary" href="#" role="button" id="edd">Додати студента</a>
+         </div>
+         </div>
+         <!start table of students>
+         <table class="table table-hover table-striped">
+          <thead>
+           <tr>
+            <th>№</tn>
+            <th>Фото</tn>
+            <th>Прізвище</tn>
+            <th>Імя</tn>
+            <th>№ білета</tn>
+            <th></th>
+            <th>Дії</tn>
+           </tr>
+          </thead>
+          <tbody>
+           <tr>
+            <td>1</td>
+            <td><img class=”img-circle” src="./house.jpeg" height="30" width="30" /></td>
+            <td><a href="#">Доктор </td>
+            <td><a href="#">Хаус</td>
+            <td>2128<td/>
+            <td>
+            <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle"
+                          data-toggle="dropdown">Дія
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Редагувати</a></li>
+                    <li><a href="#">Відвідування</a></li>
+                    <li><a href="#">Видалити</a></li>
+                  </ul>
+                </div>
+            </td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td><img  src="./pockemon.jpeg" height="30" width="30" class=”img-circle” /></td>
+            <td><a href="#">Покемон</td>
+            <td><a href="#">Мульт</td>
+            <td>2129<td/>
+            <td>
+            <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Дія
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Редагувати</a></li>
+                    <li><a href="#">Відвідування</a></li>
+                    <li><a href="#">Видалити</a></li>
+  </ul>
+</div>
+            </td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td><img class=”img-circle”/ src="./simpson.jpeg" height="30" width="30" /></td>
+            <td><a href="#">Гомер </td>
+            <td><a href="#">Сімпсон</td>
+            <td>2130<td/>
+            <td>
+           <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Дія
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Редагувати</a></li>
+    <li><a href="#">Відвідування</a></li>
+    <li><a href="#">Видалити</a></li>
+    
+  </ul>
+</div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <nav>
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+         <!end table of students> 
+         <!end main page>
+         <!start footer>
+         <div class="row" id="footer">
+         <div class="col-xs-12">
+&copy; 2014 Сервіс Обліку Студентів
+         <!end footer>
+         </div>
+         </div>
+     </div>
+       <!end  container>
+<!js section>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script> 
+</body>
+</html>
